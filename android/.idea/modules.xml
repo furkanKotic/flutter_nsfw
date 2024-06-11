@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_nsfw.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_nsfw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_nsfw.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_nsfw.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_nsfw.main.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_nsfw.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_nsfw.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_nsfw.unitTest.iml" />
     </modules>
   </component>
 </project>

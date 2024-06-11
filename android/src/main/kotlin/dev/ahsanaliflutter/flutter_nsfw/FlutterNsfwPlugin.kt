@@ -57,7 +57,6 @@ class FlutterNsfwPlugin: FlutterPlugin, MethodCallHandler {
     val imageData: ByteArray? = call.argument<ByteArray>("imageData");
     if (imageData != null) {
       val bitmap: Bitmap = BitmapFactory.decodeByteArray(imageData, 0, imageData.size);
-      Log.d("TAG", "dsagdsfgsdfg")
       NSFWHelper.getNSFWScore(bitmap) {
         val data = "nsfw:${it.nsfwScore}\nsfw:${it.sfwScore}\nScanning time：${it.timeConsumingToScanData} ms"
         Log.d("TAG", "handleNSFW: $data")
