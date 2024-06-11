@@ -4,3 +4,5 @@ Initial release
 Updated the example
 ## 0.0.6
 Updated the readme
+## 0.0.8
+Updated libraries
